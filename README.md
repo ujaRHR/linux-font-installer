@@ -26,5 +26,5 @@ Just run this command on your terminal...
 		     `bash install.sh`
 		     
 *   Make sure that the file is executable. If not use <br>
-			 `sudo chmod +x install.bash`
+			 `sudo chmod +x install.sh`
 
