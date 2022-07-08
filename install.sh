@@ -33,8 +33,7 @@ fi
 
 
 fetchFonts="https://raw.githubusercontent.com/ujarhr/linux-font-installer/main/root/fonts.tar.xz"
-fontsDir="/home/$USER/.fonts
-
+fontsDir="/home/$USER/.fonts"
 
 # Check if the directory exists, if not, then create it.
 if [ ! -d "$fontsDir" ]; then
@@ -52,7 +51,7 @@ cd $fontsDir;
 cd $fontsDir"/"
 if [ -f fonts.tar.xz ];
 then
-    echo -e "↻ Installing  !\n";
+    echo -e "↻ Installing !\n";
     tar -xf fonts.tar.xz;
     rm fonts.tar.xz;
 else
