@@ -61,7 +61,7 @@ else
 fi
 
 echo -e "\n✓ ${bold}Download and Installation Complete !!!"
-echo -e "✓ Please restart your computer to see the changes.\n"
+echo -e "✓ Please restart your computer to see the changes. \n"
 echo -e "❤ ${normal}Thank you for using Linux Fonts Installer!"
 echo -e "❤ Created by Reajul Hasan Raju"
 echo -e "❤ https://github.com/ujaRHR"
