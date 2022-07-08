@@ -12,7 +12,7 @@
 #### :star: Single Line Command:
 Just run this command on your terminal...
 
-`wget https://raw.githubusercontent.com/ujarhr/linux-font-installer/main/install.sh -O install.sh; chmod +x install.sh; bash install.sh; rm install.sh`
+`wget -q --show-progress https://raw.githubusercontent.com/ujarhr/linux-font-installer/main/install.sh -O install.sh; chmod +x install.sh; bash install.sh; rm install.sh`
 
 #### :star: Manual Installation:
 
