@@ -15,36 +15,45 @@ echo "Checking if all tools are installed..."
 # Check if wget installed, if not, then install
 if ! command -v wget &> /dev/null
 then
-    echo "wget not found, installing wget..."
-    sudo apt-get install wget
-    yum install wget
+    echo "wget not found, installing wget..."  
+    # If package manager is apt, then install wget using apt
+    if ! command -v apt &> /dev/null
+    then
+      sudo yum -y install wget
+      echo "✓ Successfully installed wget!"
+    # If package manager is yum, then install wget using yum
+    elif ! command -v yum &> /dev/null
+    then
+      sudo apt install wget -y
+      echo "✓ Successfully installed wget!"
+    fi
 else
-  echo "✓ Woah! Already Installed!"
+  echo "✓ Already Installed. Woah!"
 fi
 
 
-fetchFonts="https://github.com/ujaRHR/linux-font-installer/raw/master/fonts.tar.xz"
-fontsDir="/home/$USER/.fonts/Linux-Fonts"
+fetchFonts="https://raw.githubusercontent.com/ujarhr/linux-font-installer/main/root/fonts.tar.xz"
+fontsDir="/home/$USER/.fonts
+
 
 # Check if the directory exists, if not, then create it.
 if [ ! -d "$fontsDir" ]; then
   mkdir -p $fontsDir;
 else
-  rm -r $fontsDir;
-  mkdir -p $fontsDir;
+  echo "✓ Fonts Directory exists. Superb!"
 fi
 
 echo -e "↻ Downloading file...\n"
 
 cd $fontsDir;
-/usr/bin/wget $fetchFonts
+/usr/bin/wget -q --show-progress $fetchFonts
 
 # Check if the file exists and extract it
 cd $fontsDir"/"
 if [ -f fonts.tar.xz ];
 then
     echo -e "↻ Installing  !\n";
-    tar -zxvf fonts.tar.xz;
+    tar -xf fonts.tar.xz;
     rm fonts.tar.xz;
 else
     echo -e "✗ Something went wrong! Try again...✗\n";
