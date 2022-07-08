@@ -10,7 +10,7 @@
 
 ## How to use? 
 
-<p align="center">:anger: You can follow either Bash or Python Instructions...</p>
+:anger: You can follow either Bash or Python Instructions...
 
 #### :star: Single Line Command (Bash):
 Just run this command on your terminal...
