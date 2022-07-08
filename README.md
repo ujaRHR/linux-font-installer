@@ -8,13 +8,16 @@
 ## Pre-requisites:
 <g-emoji class="g-emoji" alias="warning" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png">⚠️</g-emoji> You must have **WGET** installed on your machine. By default, the Wget package comes pre-installed in most Linux operating systems. If not, then download it from [here](https://raw.githubusercontent.com/ujarhr/linux-font-installer/main/root/wget.tar.xz).
 
-## How to use?
-#### :star: Single Line Command:
+## How to use? 
+
+<p align="center">:anger: You can follow either Bash or Python Instructions...</p>
+
+#### :star: Single Line Command (Bash):
 Just run this command on your terminal...
 
 `wget -q --show-progress https://raw.githubusercontent.com/ujarhr/linux-font-installer/main/install.sh -O install.sh; chmod +x install.sh; bash install.sh; rm install.sh`
 
-#### :star: Manual Installation:
+#### :star: Manual Installation (Bash):
 
 *   Clone this repository. <br>
 			`git clone https://github.com/ujarhr/linux-font-installer.git`
@@ -28,3 +31,19 @@ Just run this command on your terminal...
 *   Make sure that the file is executable. If not use <br>
 			 `sudo chmod +x install.sh`
 
+
+#### :star: Single Line Command (Python):
+Just run this command on your terminal...
+
+`wget -q --show-progress https://raw.githubusercontent.com/ujarhr/linux-font-installer/main/install.py -O install.py; python3 install.py; rm install.py`
+
+#### :star: Manual Installation (Python):
+
+*   Clone this repository. <br>
+			`git clone https://github.com/ujarhr/linux-font-installer.git`
+
+*   Go to the 'linux-font-installer' folder. <br>
+			`cd linux-font-installer`
+
+*   Run the install.py program. <br>
+		     `python3 install.py`
