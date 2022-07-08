@@ -16,13 +16,13 @@ Just run this command on your terminal...
 
 #### :star: Manual Installation:
 
-*   Clone this repository.
+*   Clone this repository. <br>
 			`https://github.com/ujarhr/linux-font-installer.git`
 
-*   Go to the 'linux-font-installer' folder.
+*   Go to the 'linux-font-installer' folder. <br>
 			`cd linux-font-installer`
 
-*   Execute the install.sh script.
+*   Execute the install.sh script. <br>
 		     `bash install.sh`
 		     
 *   Make sure that the file is executable. If not use `sudo chmod +x install.bash`
