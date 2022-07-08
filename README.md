@@ -17,7 +17,7 @@ Just run this command on your terminal...
 #### :star: Manual Installation:
 
 *   Clone this repository. <br>
-			`https://github.com/ujarhr/linux-font-installer.git`
+			`git clone https://github.com/ujarhr/linux-font-installer.git`
 
 *   Go to the 'linux-font-installer' folder. <br>
 			`cd linux-font-installer`
