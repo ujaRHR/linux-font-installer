@@ -15,7 +15,7 @@ echo "Checking if all tools are installed..."
 # Check if wget installed, if not, then install
 if ! command -v wget &> /dev/null
 then
-    echo "wget not found, installing wget..."  
+    echo "✗ wget not found, installing wget..."  
     # If package manager is apt, then install wget using apt
     if ! command -v apt &> /dev/null
     then
@@ -26,6 +26,9 @@ then
     then
       sudo apt install wget -y
       echo "✓ Successfully installed wget!"
+    else
+      echo "✗ wget not found, and neither apt nor yum are installed!"
+      echo "✗ Please install wget manually!"
     fi
 else
   echo "✓ Already Installed. Woah!"
