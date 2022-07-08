@@ -1,4 +1,4 @@
-<h1 align="center"> Linux Font Installer </h1>
+<h1 align="center"> <g-emoji class="g-emoji" alias="penguin" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f427.png">🐧</g-emoji> Linux Font Installer <g-emoji class="g-emoji" alias="penguin" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f427.png">🐧</g-emoji></h1>
 <p align="center">This tool can be used to easily install essential fonts on any Linux Distribution.</p>
 
 **<g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji> Easy to use <br>
