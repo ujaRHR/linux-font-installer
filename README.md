@@ -18,6 +18,7 @@ Just run this command on your terminal...
 `wget -q --show-progress https://raw.githubusercontent.com/ujarhr/linux-font-installer/main/install.sh -O install.sh; chmod +x install.sh; bash install.sh; rm install.sh`
 
 <img src="https://i.ibb.co/jDr5NWX/carbon.png" alt="Direct Installation Command">
+
 #### :star: Manual Installation (Bash):
 
 *   Clone this repository. <br>
@@ -48,3 +49,6 @@ Just run this command on your terminal...
 
 *   Run the install.py program. <br>
 		     `python3 install.py`
+
+
+#### 🧑‍💻 Created By: [Reajul Hasan Raju](https://rhraju.com)
